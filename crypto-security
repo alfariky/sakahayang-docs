@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Keamanan Crypto</title>
+
+<style>
+
+body{
+    background:#0d1117;
+    color:white;
+    font-family:Arial,Helvetica,sans-serif;
+    margin:0;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.card{
+    background:#161b22;
+    border:1px solid #30363d;
+    border-radius:15px;
+    padding:30px;
+}
+
+h1{
+    color:#58a6ff;
+}
+
+h2{
+    color:#58a6ff;
+    margin-top:35px;
+}
+
+.back{
+    color:#58a6ff;
+    text-decoration:none;
+}
+
+.back:hover{
+    text-decoration:underline;
+}
+
+.warning{
+    background:#2d1a1a;
+    border:1px solid #f85149;
+    border-radius:10px;
+    padding:15px;
+    margin:20px 0;
+}
+
+.success{
+    background:#0f2419;
+    border:1px solid #238636;
+    border-radius:10px;
+    padding:15px;
+    margin:20px 0;
+}
+
+ul{
+    line-height:1.8;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<a class="back" href="index.html">
+← Kembali ke Dokumentasi
+</a>
+
+<div class="card">
+
+<h1>🛡 Keamanan Crypto</h1>
+
+<p>
+Keamanan adalah hal paling penting dalam dunia crypto. 
+Jika kehilangan akses wallet atau memberikan informasi rahasia kepada orang lain, aset crypto dapat hilang dan biasanya tidak bisa dikembalikan.
+</p>
+
+<div class="warning">
+<b>⚠ Ingat:</b> Tidak ada Admin, Moderator, Developer, maupun Support resmi yang akan meminta Seed Phrase atau Private Key Anda.
+</div>
+
+<h2>🔑 Jangan Pernah Membagikan Seed Phrase</h2>
+
+<p>
+Seed Phrase adalah kunci utama wallet. Biasanya terdiri dari 12 atau 24 kata acak.
+Siapa pun yang mengetahui Seed Phrase dapat mengambil seluruh isi wallet Anda.
+</p>
+
+<ul>
+<li>Jangan kirim Seed Phrase ke siapa pun.</li>
+<li>Jangan simpan di grup Telegram.</li>
+<li>Jangan screenshot lalu unggah ke internet.</li>
+<li>Tulis dan simpan di tempat aman.</li>
+</ul>
+
+<h2>🔐 Jangan Pernah Membagikan Private Key</h2>
+
+<p>
+Private Key memberikan akses penuh ke wallet Anda.
+Sama seperti Seed Phrase, siapa pun yang memiliki Private Key dapat menguras isi wallet.
+</p>
+
+<ul>
+<li>Jangan kirim Private Key kepada siapa pun.</li>
+<li>Jangan memasukkan Private Key ke website yang tidak dikenal.</li>
+<li>Simpan secara offline jika memungkinkan.</li>
+</ul>
+
+<h2>🌐 Selalu Periksa URL Website</h2>
+
+<p>
+Banyak website palsu dibuat menyerupai website asli untuk mencuri wallet pengguna.
+</p>
+
+<div class="warning">
+Contoh:
+<br><br>
+Asli : https://galxe.com
+<br>
+Palsu : https://gaIxe.com
+</div>
+
+<p>
+Periksa alamat website sebelum menghubungkan wallet.
+</p>
+
+<h2>💬 Waspada DM Telegram</h2>
+
+<p>
+Penipu sering menghubungi korban melalui pesan pribadi Telegram.
+Mereka mengaku sebagai Admin, Support, Moderator, atau Developer proyek.
+</p>
+
+<ul>
+<li>Admin asli tidak akan menghubungi Anda lebih dulu.</li>
+<li>Jangan percaya DM yang meminta wallet.</li>
+<li>Jangan percaya DM yang meminta Seed Phrase.</li>
+<li>Blokir akun mencurigakan.</li>
+</ul>
+
+<h2>👛 Gunakan Wallet Terpisah</h2>
+
+<p>
+Sebaiknya gunakan beberapa wallet dengan fungsi berbeda.
+</p>
+
+<ul>
+<li>Wallet Utama → Menyimpan aset penting.</li>
+<li>Wallet Airdrop → Untuk testnet dan airdrop.</li>
+<li>Wallet Eksperimen → Untuk mencoba proyek baru.</li>
+</ul>
+
+<div class="success">
+✅ Jika wallet airdrop terkena scam, aset utama tetap aman.
+</div>
+
+<h2>✍ Periksa Sebelum Approve Transaksi</h2>
+
+<p>
+Saat menggunakan MetaMask, Rabby, atau Trust Wallet, selalu baca detail transaksi sebelum menekan tombol Approve atau Confirm.
+</p>
+
+<ul>
+<li>Periksa jumlah token.</li>
+<li>Periksa alamat kontrak.</li>
+<li>Periksa izin (Allowance).</li>
+<li>Batalkan jika terlihat mencurigakan.</li>
+</ul>
+
+<h2>🎁 Hati-Hati Dengan Airdrop Palsu</h2>
+
+<p>
+Banyak scam menggunakan iming-iming token gratis.
+</p>
+
+<ul>
+<li>Jangan percaya "Claim 1000 USDT Gratis".</li>
+<li>Jangan percaya "Masukkan Seed Phrase untuk verifikasi".</li>
+<li>Jangan percaya "Admin meminta wallet recovery".</li>
+</ul>
+
+<h2>📚 Kesimpulan</h2>
+
+<p>
+Aturan paling penting dalam dunia crypto:
+</p>
+
+<div class="warning">
+<b>
+Jangan pernah memberikan Seed Phrase dan Private Key kepada siapa pun.
+</b>
+</div>
+
+<p>
+Jika Anda memegang aturan ini, maka sebagian besar penipuan crypto dapat dihindari.
+</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
