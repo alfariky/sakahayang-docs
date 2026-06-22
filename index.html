@@ -1,22 +1,210 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <title>Sakahayang Documentation</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sakahayang Documentation</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#0d1117;
+    color:white;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+h1{
+    text-align:center;
+    color:#58a6ff;
+    font-size:48px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#8b949e;
+    margin-bottom:50px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#161b22;
+    border:1px solid #30363d;
+    border-radius:15px;
+    padding:25px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#58a6ff;
+}
+
+.card h2{
+    color:#58a6ff;
+    margin-top:0;
+}
+
+.card ul{
+    padding-left:20px;
+}
+
+.card li{
+    margin-bottom:12px;
+}
+
+.card a{
+    color:white;
+    text-decoration:none;
+}
+
+.card a:hover{
+    color:#58a6ff;
+}
+
+.footer{
+    text-align:center;
+    margin-top:50px;
+    color:#8b949e;
+}
+
+.portal-btn{
+    display:block;
+    width:220px;
+    margin:30px auto;
+    text-align:center;
+    background:#238636;
+    color:white;
+    text-decoration:none;
+    padding:14px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.portal-btn:hover{
+    background:#2ea043;
+}
+
+</style>
+
 </head>
+
 <body>
-    <h1>📚 Sakahayang Documentation</h1>
 
-    <h2>Tutorial</h2>
+<div class="container">
 
-    <ul>
-        <li><a href="monad.html">Monad Testnet</a></li>
-        <li><a href="somnia.html">Somnia Testnet</a></li>
-        <li><a href="megaeth.html">MegaETH Testnet</a></li>
-    </ul>
+<h1>📚 Sakahayang Documentation</h1>
 
-    <hr>
+<p class="subtitle">
+Panduan Crypto, Wallet, Faucet, Airdrop, Web3 dan Testnet
+</p>
 
-    <p>Official Documentation of Sakahayang Ecosystem</p>
+<a class="portal-btn" href="https://sakahayang.my.id">
+🌐 Kembali ke Portal Utama
+</a>
+
+<div class="grid">
+
+<div class="card">
+<h2>👛 Crypto Wallet</h2>
+
+<ul>
+<li><a href="wallet.html">Apa Itu Crypto Wallet</a></li>
+<li><a href="trustwallet-android.html">Instal Trust Wallet Android</a></li>
+<li><a href="trustwallet-extension.html">Instal Trust Wallet Extension</a></li>
+<li><a href="metamask.html">Instal MetaMask</a></li>
+<li><a href="rabby.html">Instal Rabby Wallet</a></li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>💧 Faucet</h2>
+
+<ul>
+<li><a href="faucet.html">Apa Itu Faucet</a></li>
+<li><a href="claim-faucet.html">Cara Claim Faucet</a></li>
+<li><a href="discord-faucet.html">Faucet Discord</a></li>
+<li><a href="telegram-faucet.html">Faucet Telegram</a></li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>🎁 Airdrop</h2>
+
+<ul>
+<li><a href="airdrop.html">Apa Itu Airdrop</a></li>
+<li><a href="submit-wallet.html">Cara Submit Wallet</a></li>
+<li><a href="telegram-airdrop.html">Airdrop Telegram</a></li>
+<li><a href="email-airdrop.html">Airdrop Email</a></li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>🌐 Web3 Platform</h2>
+
+<ul>
+<li><a href="zealy.html">Zealy</a></li>
+<li><a href="galxe.html">Galxe</a></li>
+<li><a href="guild.html">Guild</a></li>
+<li><a href="layer3.html">Layer3</a></li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>🧪 Testnet</h2>
+
+<ul>
+<li><a href="monad.html">Monad Testnet</a></li>
+<li><a href="somnia.html">Somnia Testnet</a></li>
+<li><a href="megaeth.html">MegaETH Testnet</a></li>
+<li><a href="movement.html">Movement Testnet</a></li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>🛠 Sakahayang Tools</h2>
+
+<ul>
+<li><a href="#">SakahayangEVM</a></li>
+<li><a href="#">Wallet Checker</a></li>
+<li><a href="#">Airdrop Tracker</a></li>
+<li><a href="#">Automation Tools</a></li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="footer">
+
+<p>
+🚀 Sakahayang Ecosystem Documentation
+</p>
+
+<p>
+Belajar Crypto, Airdrop, Testnet dan Web3 dari Nol
+</p>
+
+</div>
+
+</div>
+
 </body>
 </html>
